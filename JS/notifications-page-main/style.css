@@ -1,0 +1,138 @@
+:root{
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+    --White: hsl(0, 0%, 100%);
+    --Very_lightgrayish_blue: hsl(210, 60%, 98%);
+    --Light_grayish_blue-1: hsl(211, 68%, 94%);
+    --Light_grayish_blue-2: hsl(205, 33%, 90%);
+    --Grayish_blue: hsl(219, 14%, 63%);
+    --Dark_grayish_blue: hsl(219, 12%, 42%);
+    --Very_dark_blue: hsl(224, 21%, 14%);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: var(--Dark_grayish_blue);
+}
+
+.container{
+    margin: 2rem;
+    width: 900px;
+    background-color: var(--White);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.notifBar{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+}
+.notifications{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+#notifCount{
+    background-color: var(--Blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 25px;
+    margin: 10px;
+    border-radius:0.5rem;
+    font-weight: 1000;
+    align-items: center;
+}
+
+.markAll:hover{
+    color: var(--Blue);
+    cursor: pointer;
+}
+
+.description{
+    margin-left: 1.5rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+p{
+    color: var(--Dark_grayish_blue);
+}
+
+
+strong{
+    color: var(--Very_dark_blue);
+    cursor: pointer;
+}
+
+strong:hover{
+    color: var(--Blue);
+}
+
+b:hover{
+    color: var(--Blue);
+    cursor: pointer;
+}
+
+img{
+    width: 60px;
+}
+
+/* .privateMsg{
+    display: flex;
+    align-items: center;
+} */
+
+.message{
+    padding: 1rem;
+    border: 1px solid grey;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.message:hover{
+    background-color: var(--Light_grayish_blue-2);
+}
+
+.chessImg{
+    margin-left: auto;
+}
+
+.unread{
+    background-color: var(--Light_grayish_blue-1);
+}
+
+.unread p:first-of-type::after{
+    content: "";
+    background-color: var(--Red);
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width:550px){
+    .container{
+        margin: 0;
+    }
+}
