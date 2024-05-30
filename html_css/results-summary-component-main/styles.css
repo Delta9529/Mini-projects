@@ -154,8 +154,11 @@ button{
     color: hsl(234, 85%, 45%);
 }
 
-.summaryHeading h3{
+.summaryHeading{
     background-color: antiquewhite;
-    opacity: 40%;
-    color:cornflowerblue; 
+    text-align: left;
+    padding-left: 1rem;
+    /* opacity: 30%; */
+    color: rgb(88, 53, 227); 
+    border-radius: 18px;
 }
