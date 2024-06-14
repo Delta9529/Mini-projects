@@ -1,0 +1,21 @@
+.body{
+}
+
+.head{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
