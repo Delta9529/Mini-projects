@@ -1,0 +1,33 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 15rem;
+    height: 2.5rem
+}
+
+button {
+    width: 8rem;
+    background-color: rgb(32, 167, 79);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.weather-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 15vw 0 15vw;
+}
+
+.weather-card{
+    width: 15rem;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}

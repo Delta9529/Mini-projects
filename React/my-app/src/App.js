@@ -9,13 +9,14 @@ import './App.css';
 // import XStates from './Components/XStates';
 // import XCountrySearch from './Components/XCountrySearch';
 // import XClassComp from './Components/XClassComp';
-import XPagination from './Components/XPagination';
+// import XPagination from './Components/XPagination';
+import XWeatherApp from './Components/XWeatherApp';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello React!!</h1>
-      <XPagination />
+      <XWeatherApp />
     </div>
   );
 }
