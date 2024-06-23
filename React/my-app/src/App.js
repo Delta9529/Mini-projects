@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 // import ModalForm from './Components/XModal';
-// import XCountries from './Components/XCountries';
+import XCountries from './Components/XCountries';
 // import XStopwatch from './Components/XStopwatch';
 // import XFullname from './Components/XFullname';
 // import XCounter from './Components/XCounter';
@@ -15,13 +15,13 @@ import './App.css';
 // import XSpellCheck from './Components/XSpellCheck';
 // import XDictionary from './Components/XDictionary';
 // import XTableImplementation from './Components/XTableImplementation';
-import Form from './Components/XModal/FormModal';
+// import Form from './Components/XModal/FormModal';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello React!!</h1>
-      <Form />
+      <XCountries />
     </div>
   );
 }

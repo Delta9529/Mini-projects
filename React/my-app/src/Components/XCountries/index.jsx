@@ -11,7 +11,7 @@ export default function XCountries(){
           .then((response) => {
             setData(response.data);
             setLoading(false);
-            console.log(data)
+            console.log(data) 
           })
           .catch((error) => {
             setError(error);
