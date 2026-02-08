@@ -1,0 +1,20 @@
+/* .board {
+  display: grid;
+  width: 480px;
+  margin-top: 50%;
+  margin:auto;
+  border: 1px solid black;
+} */
+
+.square {
+  width: 60px;
+  height: 60px;
+}
+
+.white {
+  background-color: #f7f7f7;
+}
+
+.black {
+  background-color: #000000;
+}
